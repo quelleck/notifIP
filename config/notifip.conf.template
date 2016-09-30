@@ -1,0 +1,7 @@
+#Your IFTTT API key as a string.
+#If you just want to log, leave empty.
+ifttt_api_key = ''
+
+#Create your IFTTT recipe and put
+#its name as string here.
+ifttt_recipe_name = ''
