@@ -17,5 +17,5 @@ format=%(asctime)s [notifip] [%(levelname)s] - %(message)s
 [handler_logfile]
 class=handlers.RotatingFileHandler
 level=NOTSET
-args=('logs/notifip.log','a',10000,3)
+args=(os.path.join(sys.path[0], 'logs/notifip.log'),'a',10000,3)
 formatter=logfileformatter
