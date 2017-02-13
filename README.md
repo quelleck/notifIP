@@ -7,3 +7,4 @@ The script uses ipinfo.io which has a limit of 1000 requests per day for free. I
 Remove .template extention from files in config/
 
 Add your IFTTT API key and recipe name to notifip.conf
+ 
